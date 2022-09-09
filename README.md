@@ -7,9 +7,7 @@
 		//MQ-2B 可燃气体 丙烷 烟雾（天然气 可燃蒸气） 
 	3.HIMI串口显示屏
 		//TJC4024T032_011
-### 基于STM32F051C8T6 设计而来###
-
-
+### 基于STM32F051C8T6 设计而来 ###
 	//SHT10
 	#define SDA_H()         	GPIO_SetBits(GPIOA,GPIO_Pin_7)
 	#define SDA_L()         	GPIO_ResetBits(GPIOA,GPIO_Pin_7)
@@ -28,7 +26,7 @@
 	#define  IIC_SDA_Low   		GPIO_ResetBits(GPIOB, GPIO_Pin_7)
 
 
-### 相关图片###
+### 相关图片 ###
 ![](https://github.com/wjkddc/Gases_analysi/blob/main/%E7%95%8C%E9%9D%A2UI/bj_9.jpg)
 ![](https://github.com/wjkddc/Gases_analysi/blob/main/%E7%95%8C%E9%9D%A2UI/bj_10.png)
 ![](http://www.thinksoc.cn/wp-content/uploads/2022/09/bj.jpg)
